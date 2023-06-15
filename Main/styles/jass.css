@@ -1,0 +1,138 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    gap: 10px 20px; 
+    row-gap: 10px;
+    column-gap: 20px;
+    Justify-content: flex-start;
+}
+
+.aside-card {
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    justify-content: center;
+    width: 25vw;
+    height: 100vh;
+    margin: 10px;
+    font-size: 26px;
+    line-height: 45px;
+}
+
+input {
+    border: 3px;
+    border-radius: 4%;
+    border-color: rgb(197, 197, 197);
+    border-style: solid;
+    background-color: #f4f5f9;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    font-size: 26px;
+    line-height: 45px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+button {
+    color: blue;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10%;
+}
+
+ .item1 { 
+    border: 2px;
+    border-color: #030303;
+    border-style: solid;
+    width: 85vw;
+    margin: 10px; 
+}
+
+.item2 {
+    /* border: 2px;
+    border-color: green;
+    border-style: solid; */
+    width: 85vw;
+    margin: 10px;
+}
+
+
+h1 {
+color: white;
+height:50px;
+background-color: blue;
+text-align: center;
+}
+
+h2 {
+    margin: 1%;
+    border: 2px;
+    text-align: center;
+}
+.result-bar {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.info {
+margin: 10px;
+padding: 10px;
+border-radius: 6%;
+margin: 10px;
+font-size: 26px;
+line-height: 45px;
+}
+
+.info-card {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 16vw;
+    height: 26vh;
+    margin: 10px;
+    background-color: #d6d8de;
+    border-radius: 6%;
+    margin: 10px;
+    font-size: 26px;
+    line-height: 45px; 
+}
+
+/* .container {
+width: 92%;
+} */
+
+/* aside input {
+    border: 5px;
+    border-radius: 4%;
+    border-color: rgb(0, 0, 0);
+    margin: 2px;
+    text-align: center;
+} */
+/* div .botton {
+    border: 5px;
+    border-radius: 4%;
+    border-color: rgb(0, 0, 0);
+    margin: 2px;
+    text-align: center;
+    background-color: blue;
+} */
+
+/* .info-bar {
+    border: 5px;
+    border-width: 3px;
+    border-color: black;
+} */

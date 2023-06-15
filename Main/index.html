@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href=".\styles\jass.css">
+    <title>Weather Dasboard</title>
+</head>
+
+
+<body> 
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="card">
+        <div class="aside-card">
+            <aside class="item">
+                <h2>
+                    Search for a City:
+                </h2>
+                <input 
+                id="search-input" 
+                class="weather" 
+                type="text" 
+                placeholder="Orlando">
+    
+                <div class="imput-search">
+                    <button class="btn-search">
+                        Search
+                    </button>
+                    <p>
+                        Recent Searches:
+                    </p>
+                    <p>content of resent search</p>
+                </div>
+            </aside>
+        </div>
+        <div class="container">
+            <div class="item1">
+                <section class="info-bar">
+                    <h2>
+                        Current Weather:
+                    </h2>
+    
+                    <div class="info">
+                        <h3 id="city">
+                            City Name:
+                        </h3>
+                        <p>
+                            <p class="card-text" id="temperature">temperature:</p>
+                            <p class="card-text" id="humidity">humidity:</p>
+                            <p class="card-text" id="wind-speed">wind-speed:</p>
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div class="item2">
+                <h2>
+                    5-Day Forecast:
+                </h2>
+                <section class="result-bar">
+    
+                    <div class="info-card">
+                        <h3>
+                            Date:
+                        </h3>
+                        <p class="card-text" id="temperature">temperature:</p>
+                        <p class="card-text" id="humidity">humidity:</p>
+                        <p class="card-text" id="wind-speed">wind-speed:</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>
+                            Date:
+                        </h3>
+                        <p>
+                            Temperature:<br>
+                            Humidity: <br>
+                            Wind Speed:<br>
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>
+                            Date:
+                        </h3>
+                        <p>
+                            Temperature:<br>
+                            Humidity: <br>
+                            Wind Speed:<br>
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>
+                            Date:
+                        </h3>
+                        <p>
+                            Temperature:<br>
+                            Humidity: <br>
+                            Wind Speed:<br>
+                        </p>
+                    </div>
+                    <div class="info-card">
+                        <h3>
+                            Date:
+                        </h3>
+                        <p>
+                            Temperature:<br>
+                            Humidity: <br>
+                            Wind Speed:<br>
+                        </p>
+                    </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"
+        integrity="sha512-0fcCRl828lBlrSCa8QJY51mtNqTcHxabaXVLPgw/jPA5Nutujh6CbTdDgRzl9aSPYW/uuE7c4SffFUQFBAy6lg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/utc.min.js"
+        integrity="sha512-m00bfmYnAl3plEBlQfeQUhw/U2uvmw29V2+jxSWpAjankMWS+zAsjezbKWDEJNXqWq9o9qQZSOiA2RKDpa4D5w=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/timezone.min.js"
+        integrity="sha512-pslqxxHAYPCxaSeFSmXXxDkLejD5dbFVC66aiVq0z4v7VTJBU+wqcG1OpNh4p3MjS2D6NCwz/H2QmSc7dXxryg=="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
